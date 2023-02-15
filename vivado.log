@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jan  7 23:15:45 2023
+# Process ID: 19352
+# Current directory: E:/Digital/project_WM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4512 E:\Digital\project_WM\project_wm.xpr
+# Log file: E:/Digital/project_WM/vivado.log
+# Journal file: E:/Digital/project_WM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Digital/project_WM/project_wm.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Digital/project_WM/step_fsm_sim_behav_1215.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Digital/Vivado/2017.4/data/ip'.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+INFO: [Netlist 29-17] Analyzing 236 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Digital/project_WM/project_wm.srcs/constrs_1/new/mode_light.xdc]
+Finished Parsing XDC File [E:/Digital/project_WM/project_wm.srcs/constrs_1/new/mode_light.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1254.160 ; gain = 383.215
+write_schematic -format pdf -orientation portrait E:/Digital/project_WM/project_WM.srcs/sources_1/new/schematic.pdf
+E:/Digital/project_WM/project_WM.srcs/sources_1/new/schematic.pdf

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec 24 15:16:06 2022
+# Process ID: 21176
+# Current directory: C:/Users/cheny/Desktop/CS207/project_wm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11920 C:\Users\cheny\Desktop\CS207\project_wm\project_wm.xpr
+# Log file: C:/Users/cheny/Desktop/CS207/project_wm/vivado.log
+# Journal file: C:/Users/cheny/Desktop/CS207/project_wm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/cheny/Desktop/CS207/project_wm/project_wm.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/cheny/Desktop/CS207/Washing_machine/Washing_machine.srcs/sources_1/new/step_fsm.v] -no_script -reset -force -quiet
+remove_files  C:/Users/cheny/Desktop/CS207/Washing_machine/Washing_machine.srcs/sources_1/new/step_fsm.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/cheny/Desktop/CS207/Washing_machine/Washing_machine.srcs/sources_1/new/mode_light.v] -no_script -reset -force -quiet
+remove_files  C:/Users/cheny/Desktop/CS207/Washing_machine/Washing_machine.srcs/sources_1/new/mode_light.v
+set_property source_mgmt_mode DisplayOnly [current_project]
+add_files -norecurse {C:/Users/cheny/Desktop/CS207/project_wm/project_wm.srcs/sources_1/new/step_fsm.v C:/Users/cheny/Desktop/CS207/project_wm/project_wm.srcs/sources_1/new/mode_light.v}
